@@ -31,6 +31,58 @@ body {
     font-size: 24px; 
 }
 
+
+.server-test-div {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    background-color: white;
+    color: black;
+    z-index: 60;
+    font-size: 18px;
+    text-shadow: none;
+
+    border-radius: 20px;;
+    padding: 20px;
+    width: 60vw;
+}
+
+.server-test {
+    text-align: center;
+}
+
+.server-test button {
+    font-family: "Poetsen One", sans-serif;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 30px;
+    background-color: grey;
+}
+
+.server-status {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 400px;
+    width: 400px;
+    font-size: 30px;
+    color: red;
+}
+.server-test .start-server:hover {
+    background-color: rgb(153, 255, 0);
+    font-size: 25px;
+    transition: background-color 0.3s ease, font-size 0.3s ease;
+}
+
+.server-test .stop-server:hover {
+    background-color: rgb(255, 0, 0);
+    font-size: 25px;
+    transition: background-color 0.3s ease, font-size 0.3s ease;
+}
+
+
+
 .trees {
     position: fixed;
     top: 70%;
@@ -92,13 +144,6 @@ body {
     height: 300px; 
     width: auto;
     z-index: 1;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 1000;
 }
 
 .anglophoria {
